@@ -203,7 +203,7 @@ components in Y and Z.
 
   What is good and what is bad
   ----------------------------
-  - Ready 100% reliable code for conforming finite elemnet. Remember that derivatives of shape functions are
+  - Ready 100% reliable code for conforming finite element. Remember that derivatives of shape functions are
 discontinuous within the element.
   - Matrix class for small matrices with 100% reliable inversion formulae. If you run into a problem, 
 you might have forgotten to transpose a matrix somewhere. Matrix operations are slow, no special attention 
@@ -212,7 +212,7 @@ to code speed.
 reorganisation of the whole code.
   - FEMVirtMatrix is SIMD accelerated with normal speedup 4 times or more, but multithreading does not help 
 very much, maybe vecause of my computer is with just a single hardware set of XMM registers.
-  - The last test - solution to a Laplace equation is very very simple but produces correct results. We need
+  - The last test - solution to a Laplace equation is very very simple and produces correct results. We need
 a mesh generation code for proper testing (to come).
 
   References
