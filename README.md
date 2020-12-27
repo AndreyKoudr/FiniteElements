@@ -177,7 +177,7 @@ components in Y and Z.
     4900 of 5000
     2. solving with parallel solver...
     4900
-    Time : simple solver 2.75633 sec, SIMD parallel solver 0.374472, acceleration 7.36059
+    Time : simple solver 2.75633 sec, SIMD parallel solver 0.374472, <B>acceleration 7.36059</B>
     Tesing results
     Comparing solutions...
     Max difference b/w solutions is 9.19168e-13, max solution value 0.109975, min value -0.110092, residual 8.99503e-13, parallel residual 1.33116e-12
