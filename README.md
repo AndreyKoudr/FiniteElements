@@ -65,7 +65,7 @@ These formulae are 100% reliable. The class does not contain any coordinate tran
   Solution to a system of equations
   ---------------------------------
   A FEM system is banded and the code stores matrix by rows taking into account its banded nature with the 
-solution by Gauss elemination. The built-in SIMD makes the code sufficiently faster. But multithreading does not
+solution by Gauss elimination. The built-in SIMD makes the code sufficiently faster. But multithreading does not
 make any good. I do not know why, did not try to understand why. The maximum reasonable size of the 
 system is something up to 70..100 thousands with 1/10 band width; the bigger solution will be destroyed by 
 roundup errors, storage probems and time of solution. A better parallelisation and a more sophisticated 
