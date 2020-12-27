@@ -125,7 +125,7 @@ It is as follows :
 
   This is one big conforming finite element with five hanging nodes (5,7,8,9,11) and eight 
 non-conforming small finite elements each with 8 nodes.
-  The "non-conforming" plane is X = 0.5 to achieve continuous approximation
+  The "non-conforming" plane is X = 1.0 to achieve continuous approximation
 across it with our conforming finite element Confroming3D.
 
   The problem is formulated as follows : solve Laplace equation with essential boundary
@@ -177,7 +177,7 @@ components in Y and Z.
     4900 of 5000
     2. solving with parallel solver...
     4900
-    Time : simple solver 2.75633 sec, SIMD parallel solver 0.374472, <B>acceleration 7.36059</B>
+    Time : simple solver 2.75633 sec, SIMD parallel solver 0.374472, acceleration 7.36059
     Tesing results
     Comparing solutions...
     Max difference b/w solutions is 9.19168e-13, max solution value 0.109975, min value -0.110092, residual 8.99503e-13, parallel residual 1.33116e-12
