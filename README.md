@@ -60,7 +60,7 @@ neighbour elements.
   This class is for operations with not very large matrices but mainly for manipulations with
 finite element shape functions. The class does not contain any special features for speedup,
 it is a regular code for matrix ariphmetics and inversion for 2 x 2, 3 x 3 and 4 x 4 matrices.
-These formulae are 100% reliable.
+These formulae are 100% reliable. The class does not contain any transforms.
 
   Solution to a system of equations
   ---------------------------------
