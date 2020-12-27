@@ -60,7 +60,7 @@ neighbour elements.
   This class is for operations with not very large matrices but mainly for manipulations with
 finite element shape functions. The class does not contain any special features for speedup,
 it is a regular code for matrix ariphmetics and inversion for 2 x 2, 3 x 3 and 4 x 4 matrices.
-These formulae are 100% reliable. The class does not contain any transforms.
+These formulae are 100% reliable. The class does not contain any coordinate transforms for 4 x 4 case.
 
   Solution to a system of equations
   ---------------------------------
@@ -211,7 +211,7 @@ to code speed.
   - Vector class for 4-component vectors Vector4 is accelerated by SIMD, but it cannot help much without
 reorganisation of the whole code.
   - FEMVirtMatrix is SIMD accelerated with normal speedup 4 times or more, but multithreading does not help 
-very much, maybe vecause of my computer is with just a single hardware set of XMM registers.
+very much, maybe because of my computer with just a single hardware set of XMM registers.
   - The last test - solution to a Laplace equation is very very simple and produces correct results. We need
 a mesh generation code for proper testing (to come).
 
