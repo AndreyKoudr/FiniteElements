@@ -86,8 +86,9 @@ algorithm is necessary for a good commercial code.
 
   When testing solution to the system of equations, the matrix is not quite well positive definite,
 so it would be much better to use doubles, like this :
-  #define T double
-  #define T TVector<double>
+
+    #define T double
+    #define T TVector<double>
 
   If T and Tvector have different basic types, the code produces some type-conversion warnings, I left them
 as they are.
