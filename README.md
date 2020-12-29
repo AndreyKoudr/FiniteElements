@@ -18,7 +18,7 @@ scratch, no third-party code.
 Incompressible Flow</I>.
   The element with all associated code is here in <I>Conforming3D.h</I>. "Conforming" means that you 
 do not have to use a conformal mesh but build approximation on such constructions like balanced 
-octrees. The element provides continuous approximation across element faces, but its shape functions 
+octrees. The element provides continuous approximation across element faces, its shape functions 
 are far from being trivial.
 
 
