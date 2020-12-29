@@ -1,19 +1,26 @@
 # FiniteElements
 
-  Conforming finite elements
+  Finite elements
   --------------------------
   This is an example code (VS 2019 without Windows specifics) on how to write approximation and 
 solution to a partial differential equation with conforming linear finite elements. Everything from
 scratch, no third-party code.
-  The element with all associated code is here in <I>Conforming3D.h</I>. "Conforming" means that you 
-do not have to use a conformal mesh but build approximation on such constructions like balanced 
-octrees. The element provides continuous approximation across element faces, but its shape functions 
-are not trivial.
+
+  These are useful classes here which can be used separately :
+  - Vector4 - SIMD-accelerated 4 component vector based on 4-byte floats
+  - Matrix - 2-dimensional matrix with operators and inversion of 2 x 2, 3 x 3 and 4 x 4 matrices
+  - FEMVirtMatrix - SIMD-accelerated banded matrix to solve FEM systems - real code speedup
+  - Conforming3D - conforming linear finite element with all tested formulae
 
   Conforming linear finite element
   --------------------------------
   <I>K.-W. Cheng, T.-P. Fries. XFEM with Hanging Nodes for Two-phase 
 Incompressible Flow</I>.
+  The element with all associated code is here in <I>Conforming3D.h</I>. "Conforming" means that you 
+do not have to use a conformal mesh but build approximation on such constructions like balanced 
+octrees. The element provides continuous approximation across element faces, but its shape functions 
+are far from being trivial.
+
 
            (7)----------18-----------(6)
            /|                        /|    
