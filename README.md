@@ -10,7 +10,7 @@ scratch, no third-party code.
   - Vector4 - SIMD-accelerated 4 component vector based on 4-byte floats
   - Matrix - 2-dimensional matrix with operators and inversion of 2 x 2, 3 x 3 and 4 x 4 matrices
   - FEMVirtMatrix - SIMD-accelerated banded matrix to solve FEM systems - real code speedup
-  - Conforming3D - conforming linear finite element with all tested formulae
+  - Conforming3D - conforming linear finite element with all formulae well tested
 
   Conforming linear finite element
   --------------------------------
