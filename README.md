@@ -224,6 +224,6 @@ a mesh generation code for proper testing (to come).
 
   References
   ----------
-  - J.J.Connor, C.A.Brebbia. Finite Element Techniques for Fluid Flow (about finite elements).
+  - J.J.Connor, C.A.Brebbia. Finite Element Techniques for Fluid Flow (very comprehensible, about finite elements).
   - K.-W. Cheng, T.-P. Fries. XFEM with Hanging Nodes for Two-phase Incompressible Flow (shape 
 functions for conforming finite element). 
